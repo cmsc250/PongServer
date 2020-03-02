@@ -14,7 +14,7 @@ public class Simulation implements PongConstants {
     
     public Simulation(int dX,int dY)
     {
-        // The outer box forms the boundary for the game.
+        // The outer box forms the boundary for the game area.
         outer = new Box(0,0,WIDTH,HEIGHT,false);
         ball = new Ball(WIDTH/2,WIDTH/2,dX,dY);
         boxOne = new Box(MARGIN,MARGIN, THICKNESS, LENGTH,true);
